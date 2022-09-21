@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2011235807676195695}
   - component: {fileID: 4941458375229972500}
   - component: {fileID: 6128415245839977861}
-  - component: {fileID: 859496115367792436}
+  - component: {fileID: 8101085073885122712}
   - component: {fileID: 4272341452649924373}
   m_Layer: 0
   m_Name: Red Zombie
@@ -129,8 +129,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &859496115367792436
-BoxCollider2D:
+--- !u!70 &8101085073885122712
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -142,19 +142,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.19898927, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.29, y: 2.11}
-    newSize: {x: 1.29, y: 2.11}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8920214, y: 2.11}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.17418212, y: -0.0037062168}
+  m_Size: {x: 0.8082197, y: 2.0358796}
+  m_Direction: 0
 --- !u!114 &4272341452649924373
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3079256324603115222}
   - component: {fileID: 659660368211207552}
   - component: {fileID: 465392963164698146}
-  - component: {fileID: 6047300107923241144}
+  - component: {fileID: 5013433812873860028}
   - component: {fileID: 3915618846870506327}
   m_Layer: 0
   m_Name: Green Zombie
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944123856069087835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.089, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -129,8 +129,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &6047300107923241144
-BoxCollider2D:
+--- !u!70 &5013433812873860028
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -142,19 +142,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.14190602, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.29, y: 2.11}
-    newSize: {x: 1.29, y: 2.11}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9201851, y: 2.11}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.14268109, y: -0.012971044}
+  m_Size: {x: 0.8119256, y: 2.0692341}
+  m_Direction: 0
 --- !u!114 &3915618846870506327
 MonoBehaviour:
   m_ObjectHideFlags: 0
