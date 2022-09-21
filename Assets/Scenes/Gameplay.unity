@@ -4367,7 +4367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 23660610882214799, guid: 9159f39ca2dfe4963846755989d5aab5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6274273
+      value: -3.35
       objectReference: {fileID: 0}
     - target: {fileID: 23660610882214799, guid: 9159f39ca2dfe4963846755989d5aab5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4410,9 +4410,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 465392963164698146, guid: 44073915213e348a88b6c49ae033e1b7, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1944123856069087835, guid: 44073915213e348a88b6c49ae033e1b7, type: 3}
       propertyPath: m_Name
       value: Green Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944123856069087835, guid: 44073915213e348a88b6c49ae033e1b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6713612862014499289, guid: 44073915213e348a88b6c49ae033e1b7, type: 3}
       propertyPath: m_RootOrder
@@ -4511,9 +4519,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6128415245839977861, guid: f43be68cc29f84e93bdf6f4113db8a83, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6251138155376724902, guid: f43be68cc29f84e93bdf6f4113db8a83, type: 3}
       propertyPath: m_Name
       value: Red Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251138155376724902, guid: f43be68cc29f84e93bdf6f4113db8a83, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f43be68cc29f84e93bdf6f4113db8a83, type: 3}
@@ -4534,11 +4550,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4291180353560450267, guid: 6ae6e0c2bd1a245428570971ab052402, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.19
+      value: 4.04
       objectReference: {fileID: 0}
     - target: {fileID: 4291180353560450267, guid: 6ae6e0c2bd1a245428570971ab052402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.74
+      value: -3.3
       objectReference: {fileID: 0}
     - target: {fileID: 4291180353560450267, guid: 6ae6e0c2bd1a245428570971ab052402, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4571,6 +4587,10 @@ PrefabInstance:
     - target: {fileID: 4291180353560450267, guid: 6ae6e0c2bd1a245428570971ab052402, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672422571388055131, guid: 6ae6e0c2bd1a245428570971ab052402, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ae6e0c2bd1a245428570971ab052402, type: 3}
