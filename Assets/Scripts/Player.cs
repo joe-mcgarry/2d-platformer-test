@@ -11,14 +11,20 @@ public class Player : MonoBehaviour
 
     private float movementX;
 
-    [SerializeField]
     private Rigidbody2D myBody;
 
     private SpriteRenderer sr;
 
     private Animator anim;
     private string WALK_ANIMATION = "Walk";
-    
+
+    private void Awake()
+    {
+        myBody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +34,12 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        PlayerMoveKeyboard();
+    }
+
+    void PlayerMoveKeyboard()
+    {
+        movementX = Input.GetAxisRaw("Horizontal");
+        transform.position += new Vector3(movementX, 0f, 0f) * Time.deltaTime * moveForce;
     }
 }
