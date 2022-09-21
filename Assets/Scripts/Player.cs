@@ -50,11 +50,13 @@ public class Player : MonoBehaviour
         if (movementX > 0)
         {
             anim.SetBool(WALK_ANIMATION, true);
+            sr.flipX = false;
         }
         else if (movementX < 0)
         {
             //going to the left
             anim.SetBool(WALK_ANIMATION, true);
+            sr.flipX = true;
         }
         else
         {
