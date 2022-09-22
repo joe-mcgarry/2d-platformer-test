@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6128415245839977861}
   - component: {fileID: 8101085073885122712}
   - component: {fileID: 4272341452649924373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Red Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
